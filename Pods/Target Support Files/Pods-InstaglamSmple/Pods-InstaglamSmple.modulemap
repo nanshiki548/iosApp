@@ -1,0 +1,6 @@
+framework module Pods_InstaglamSmple {
+  umbrella header "Pods-InstaglamSmple-umbrella.h"
+
+  export *
+  module * { export * }
+}

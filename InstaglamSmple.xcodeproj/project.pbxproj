@@ -3,27 +3,199 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		372212C724CED30D00BFF4F4 /* Splash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 372212C624CED30D00BFF4F4 /* Splash.storyboard */; };
+		372212C924CED32600BFF4F4 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372212C824CED32600BFF4F4 /* SplashViewController.swift */; };
 		3738C8E92484FC00006B25C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3738C8E82484FC00006B25C9 /* AppDelegate.swift */; };
 		3738C8EB2484FC00006B25C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3738C8EA2484FC00006B25C9 /* SceneDelegate.swift */; };
-		3738C8ED2484FC00006B25C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3738C8EC2484FC00006B25C9 /* ViewController.swift */; };
 		3738C8F02484FC00006B25C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3738C8EE2484FC00006B25C9 /* Main.storyboard */; };
 		3738C8F22484FC04006B25C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3738C8F12484FC04006B25C9 /* Assets.xcassets */; };
 		3738C8F52484FC04006B25C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3738C8F32484FC04006B25C9 /* LaunchScreen.storyboard */; };
+		3738C8FD24850098006B25C9 /* icons8-検索-24.png in Resources */ = {isa = PBXBuildFile; fileRef = 3738C8FC24850098006B25C9 /* icons8-検索-24.png */; };
+		3738C8FF248500AD006B25C9 /* icons8-ホーム-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 3738C8FE248500AD006B25C9 /* icons8-ホーム-50.png */; };
+		3738C90C2485E30D006B25C9 /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3738C90B2485E30D006B25C9 /* SignIn.storyboard */; };
+		3738C91024861AE5006B25C9 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3738C90F24861AE5006B25C9 /* SignUpViewController.swift */; };
+		3738C9122486351B006B25C9 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3738C9112486351B006B25C9 /* SignInViewController.swift */; };
+		3738C91424863AEC006B25C9 /* UserPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3738C91324863AEC006B25C9 /* UserPageViewController.swift */; };
+		3738C918248656AC006B25C9 /* EditUserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3738C917248656AC006B25C9 /* EditUserInfoViewController.swift */; };
+		3738C91D24875872006B25C9 /* TimelineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3738C91B24875872006B25C9 /* TimelineTableViewCell.swift */; };
+		3738C91E24875872006B25C9 /* TimelineTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3738C91C24875872006B25C9 /* TimelineTableViewCell.xib */; };
+		3738C92024875D60006B25C9 /* icons8-ハート-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 3738C91F24875D60006B25C9 /* icons8-ハート-48.png */; };
+		3738C9282487A14F006B25C9 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3738C9272487A14F006B25C9 /* Post.swift */; };
+		3738C92A2487A15D006B25C9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3738C9292487A15D006B25C9 /* User.swift */; };
+		3738C92C2487A359006B25C9 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3738C92B2487A359006B25C9 /* Comment.swift */; };
+		373974EA24C867AD00848AC1 /* フリップ.png in Resources */ = {isa = PBXBuildFile; fileRef = 373974E924C867AC00848AC1 /* フリップ.png */; };
+		373974EC24C9102800848AC1 /* IMG_2867.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 373974EB24C9102700848AC1 /* IMG_2867.PNG */; };
+		373974EE24C9119E00848AC1 /* IMG_2868.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 373974ED24C9119E00848AC1 /* IMG_2868.PNG */; };
+		373974F024C9352300848AC1 /* IMG_2871.PNG.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 373974EF24C9352200848AC1 /* IMG_2871.PNG.pdf */; };
+		373974F324C93AD700848AC1 /* 無題10_20200723122451.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 373974F124C93AD500848AC1 /* 無題10_20200723122451.PNG */; };
+		373974F424C93AD700848AC1 /* 背景.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 373974F224C93AD700848AC1 /* 背景.PNG */; };
+		373974F624C943D500848AC1 /* Report.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373974F524C943D500848AC1 /* Report.swift */; };
+		373974F824C943E700848AC1 /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373974F724C943E700848AC1 /* Block.swift */; };
+		373BE2AA2488F10D00256580 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373BE2A92488F10D00256580 /* PostViewController.swift */; };
+		373BE2B32489E45700256580 /* SearchUserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373BE2B12489E45700256580 /* SearchUserTableViewCell.swift */; };
+		373BE2B42489E45700256580 /* SearchUserTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 373BE2B22489E45700256580 /* SearchUserTableViewCell.xib */; };
+		373BE2B62489E75200256580 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373BE2B52489E75200256580 /* SearchViewController.swift */; };
+		373BE2B8248B666000256580 /* ShowUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373BE2B7248B666000256580 /* ShowUserViewController.swift */; };
+		373BE2C02492360300256580 /* CommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373BE2BF2492360300256580 /* CommentViewController.swift */; };
+		373BE2C224923B5200256580 /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373BE2C124923B5200256580 /* BorderButton.swift */; };
+		373BE2C424923F0B00256580 /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373BE2C324923F0B00256580 /* ViewController1.swift */; };
+		373BE2C624938BA200256580 /* icons8-追加-24.png in Resources */ = {isa = PBXBuildFile; fileRef = 373BE2C524938BA200256580 /* icons8-追加-24.png */; };
+		373BE2C824938BB000256580 /* icons8-名前-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 373BE2C724938BB000256580 /* icons8-名前-32.png */; };
+		373BE2CA24938C5100256580 /* icons8-タイムライン-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 373BE2C924938C5100256580 /* icons8-タイムライン-32.png */; };
+		373BE2D024948B4100256580 /* icons8-トピック-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 373BE2CF24948B4000256580 /* icons8-トピック-50.png */; };
+		373BE2D224948C2600256580 /* icons8-いいね-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 373BE2D124948C2600256580 /* icons8-いいね-50.png */; };
+		373BE2D4249644B600256580 /* HashTagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373BE2D3249644B600256580 /* HashTagViewController.swift */; };
+		3749634724D2E73A00CDDC04 /* BlockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3749634624D2E73A00CDDC04 /* BlockViewController.swift */; };
+		3749634A24D2E75D00CDDC04 /* BlockTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3749634824D2E75D00CDDC04 /* BlockTableViewCell.swift */; };
+		3749634B24D2E75D00CDDC04 /* BlockTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3749634924D2E75D00CDDC04 /* BlockTableViewCell.xib */; };
+		3749634D24D8F9E000CDDC04 /* 無題18_20200804110409.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3749634C24D8F9DF00CDDC04 /* 無題18_20200804110409.JPG */; };
+		3749635E24DA79A000CDDC04 /* Icon-App-76x76@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3749634F24DA79A000CDDC04 /* Icon-App-76x76@2x.jpg */; };
+		3749635F24DA79A000CDDC04 /* Icon-App-29x29@1x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3749635024DA79A000CDDC04 /* Icon-App-29x29@1x.jpg */; };
+		3749636024DA79A000CDDC04 /* Icon-App-40x40@1x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3749635124DA79A000CDDC04 /* Icon-App-40x40@1x.jpg */; };
+		3749636124DA79A000CDDC04 /* Icon-App-20x20@1x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3749635224DA79A000CDDC04 /* Icon-App-20x20@1x.jpg */; };
+		3749636224DA79A000CDDC04 /* Icon-App-83.5x83.5@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3749635324DA79A000CDDC04 /* Icon-App-83.5x83.5@2x.jpg */; };
+		3749636324DA79A000CDDC04 /* Icon-App-20x20@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3749635424DA79A000CDDC04 /* Icon-App-20x20@3x.jpg */; };
+		3749636424DA79A000CDDC04 /* ItunesArtwork@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3749635524DA79A000CDDC04 /* ItunesArtwork@2x.jpg */; };
+		3749636524DA79A000CDDC04 /* Icon-App-20x20@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3749635624DA79A000CDDC04 /* Icon-App-20x20@2x.jpg */; };
+		3749636624DA79A000CDDC04 /* Icon-App-29x29@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3749635724DA79A000CDDC04 /* Icon-App-29x29@3x.jpg */; };
+		3749636724DA79A000CDDC04 /* Icon-App-40x40@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3749635824DA79A000CDDC04 /* Icon-App-40x40@2x.jpg */; };
+		3749636824DA79A000CDDC04 /* Icon-App-60x60@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3749635924DA79A000CDDC04 /* Icon-App-60x60@3x.jpg */; };
+		3749636924DA79A000CDDC04 /* Icon-App-60x60@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3749635A24DA79A000CDDC04 /* Icon-App-60x60@2x.jpg */; };
+		3749636A24DA79A000CDDC04 /* Icon-App-76x76@1x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3749635B24DA79A000CDDC04 /* Icon-App-76x76@1x.jpg */; };
+		3749636B24DA79A000CDDC04 /* Icon-App-40x40@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3749635C24DA79A000CDDC04 /* Icon-App-40x40@3x.jpg */; };
+		3749636C24DA79A000CDDC04 /* Icon-App-29x29@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3749635D24DA79A000CDDC04 /* Icon-App-29x29@2x.jpg */; };
+		3762F3E124C1D57E000E5C75 /* CommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3762F3DF24C1D57E000E5C75 /* CommentTableViewCell.swift */; };
+		3762F3E224C1D57E000E5C75 /* CommentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3762F3E024C1D57E000E5C75 /* CommentTableViewCell.xib */; };
+		3762F3E424C27AD0000E5C75 /* ThisWeeekViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3762F3E324C27AD0000E5C75 /* ThisWeeekViewController.swift */; };
+		3762F3E724C27AFB000E5C75 /* ThisWeekTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3762F3E524C27AFB000E5C75 /* ThisWeekTableViewCell.swift */; };
+		3762F3E824C27AFB000E5C75 /* ThisWeekTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3762F3E624C27AFB000E5C75 /* ThisWeekTableViewCell.xib */; };
+		3762F3EA24C284B7000E5C75 /* ThisWeek.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3762F3E924C284B7000E5C75 /* ThisWeek.swift */; };
+		3762F3EC24C29B4C000E5C75 /* 無題8_20200718115102.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 3762F3EB24C29B4C000E5C75 /* 無題8_20200718115102.PNG */; };
+		3762F40324C4637C000E5C75 /* iTunesArtwork@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3762F3EE24C4637B000E5C75 /* iTunesArtwork@1x.png */; };
+		3762F40424C4637C000E5C75 /* Icon-App-76x76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3762F3F024C4637B000E5C75 /* Icon-App-76x76@2x.png */; };
+		3762F40524C4637C000E5C75 /* Icon-App-29x29@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3762F3F124C4637B000E5C75 /* Icon-App-29x29@1x.png */; };
+		3762F40624C4637C000E5C75 /* Icon-App-40x40@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3762F3F224C4637B000E5C75 /* Icon-App-40x40@1x.png */; };
+		3762F40724C4637C000E5C75 /* Icon-App-20x20@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3762F3F324C4637B000E5C75 /* Icon-App-20x20@1x.png */; };
+		3762F40824C4637C000E5C75 /* Icon-App-83.5x83.5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3762F3F424C4637B000E5C75 /* Icon-App-83.5x83.5@2x.png */; };
+		3762F40924C4637C000E5C75 /* Icon-App-20x20@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3762F3F524C4637B000E5C75 /* Icon-App-20x20@3x.png */; };
+		3762F40A24C4637C000E5C75 /* ItunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3762F3F624C4637B000E5C75 /* ItunesArtwork@2x.png */; };
+		3762F40B24C4637C000E5C75 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 3762F3F724C4637B000E5C75 /* Contents.json */; };
+		3762F40C24C4637C000E5C75 /* Icon-App-20x20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3762F3F824C4637B000E5C75 /* Icon-App-20x20@2x.png */; };
+		3762F40D24C4637C000E5C75 /* Icon-App-29x29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3762F3F924C4637B000E5C75 /* Icon-App-29x29@3x.png */; };
+		3762F40E24C4637C000E5C75 /* Icon-App-40x40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3762F3FA24C4637B000E5C75 /* Icon-App-40x40@2x.png */; };
+		3762F40F24C4637C000E5C75 /* Icon-App-60x60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3762F3FB24C4637C000E5C75 /* Icon-App-60x60@3x.png */; };
+		3762F41024C4637C000E5C75 /* Icon-App-60x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3762F3FC24C4637C000E5C75 /* Icon-App-60x60@2x.png */; };
+		3762F41124C4637C000E5C75 /* Icon-App-76x76@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3762F3FD24C4637C000E5C75 /* Icon-App-76x76@1x.png */; };
+		3762F41224C4637C000E5C75 /* Icon-App-40x40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3762F3FE24C4637C000E5C75 /* Icon-App-40x40@3x.png */; };
+		3762F41324C4637C000E5C75 /* Icon-App-29x29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3762F3FF24C4637C000E5C75 /* Icon-App-29x29@2x.png */; };
+		3762F41524C4637C000E5C75 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3762F40124C4637C000E5C75 /* iTunesArtwork@2x.png */; };
+		3762F41624C4637C000E5C75 /* iTunesArtwork@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3762F40224C4637C000E5C75 /* iTunesArtwork@3x.png */; };
+		3762F41E24C53921000E5C75 /* FollowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3762F41D24C53921000E5C75 /* FollowViewController.swift */; };
+		3762F42124C53942000E5C75 /* FollowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3762F41F24C53942000E5C75 /* FollowTableViewCell.swift */; };
+		3762F42224C53942000E5C75 /* FollowTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3762F42024C53942000E5C75 /* FollowTableViewCell.xib */; };
+		57D4D699A0CD81DAF07B9C03 /* Pods_InstaglamSmple.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C3C913F399531AAE52B0D7B /* Pods_InstaglamSmple.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		372212C624CED30D00BFF4F4 /* Splash.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Splash.storyboard; sourceTree = "<group>"; };
+		372212C824CED32600BFF4F4 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		3738C8E52484FC00006B25C9 /* InstaglamSmple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaglamSmple.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3738C8E82484FC00006B25C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3738C8EA2484FC00006B25C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3738C8EC2484FC00006B25C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3738C8EF2484FC00006B25C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3738C8F12484FC04006B25C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3738C8F42484FC04006B25C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3738C8F62484FC04006B25C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3738C8FC24850098006B25C9 /* icons8-検索-24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-検索-24.png"; sourceTree = "<group>"; };
+		3738C8FE248500AD006B25C9 /* icons8-ホーム-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-ホーム-50.png"; sourceTree = "<group>"; };
+		3738C90B2485E30D006B25C9 /* SignIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignIn.storyboard; sourceTree = "<group>"; };
+		3738C90F24861AE5006B25C9 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		3738C9112486351B006B25C9 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		3738C91324863AEC006B25C9 /* UserPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPageViewController.swift; sourceTree = "<group>"; };
+		3738C917248656AC006B25C9 /* EditUserInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditUserInfoViewController.swift; sourceTree = "<group>"; };
+		3738C91B24875872006B25C9 /* TimelineTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineTableViewCell.swift; sourceTree = "<group>"; };
+		3738C91C24875872006B25C9 /* TimelineTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimelineTableViewCell.xib; sourceTree = "<group>"; };
+		3738C91F24875D60006B25C9 /* icons8-ハート-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-ハート-48.png"; sourceTree = "<group>"; };
+		3738C9272487A14F006B25C9 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		3738C9292487A15D006B25C9 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3738C92B2487A359006B25C9 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		373974E924C867AC00848AC1 /* フリップ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "フリップ.png"; sourceTree = "<group>"; };
+		373974EB24C9102700848AC1 /* IMG_2867.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_2867.PNG; sourceTree = "<group>"; };
+		373974ED24C9119E00848AC1 /* IMG_2868.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_2868.PNG; sourceTree = "<group>"; };
+		373974EF24C9352200848AC1 /* IMG_2871.PNG.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = IMG_2871.PNG.pdf; sourceTree = "<group>"; };
+		373974F124C93AD500848AC1 /* 無題10_20200723122451.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "無題10_20200723122451.PNG"; sourceTree = "<group>"; };
+		373974F224C93AD700848AC1 /* 背景.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "背景.PNG"; sourceTree = "<group>"; };
+		373974F524C943D500848AC1 /* Report.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Report.swift; sourceTree = "<group>"; };
+		373974F724C943E700848AC1 /* Block.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
+		373BE2A92488F10D00256580 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		373BE2B12489E45700256580 /* SearchUserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchUserTableViewCell.swift; sourceTree = "<group>"; };
+		373BE2B22489E45700256580 /* SearchUserTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchUserTableViewCell.xib; sourceTree = "<group>"; };
+		373BE2B52489E75200256580 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		373BE2B7248B666000256580 /* ShowUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowUserViewController.swift; sourceTree = "<group>"; };
+		373BE2BF2492360300256580 /* CommentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentViewController.swift; sourceTree = "<group>"; };
+		373BE2C124923B5200256580 /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
+		373BE2C324923F0B00256580 /* ViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
+		373BE2C524938BA200256580 /* icons8-追加-24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-追加-24.png"; sourceTree = "<group>"; };
+		373BE2C724938BB000256580 /* icons8-名前-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-名前-32.png"; sourceTree = "<group>"; };
+		373BE2C924938C5100256580 /* icons8-タイムライン-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-タイムライン-32.png"; sourceTree = "<group>"; };
+		373BE2CF24948B4000256580 /* icons8-トピック-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-トピック-50.png"; sourceTree = "<group>"; };
+		373BE2D124948C2600256580 /* icons8-いいね-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-いいね-50.png"; sourceTree = "<group>"; };
+		373BE2D3249644B600256580 /* HashTagViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashTagViewController.swift; sourceTree = "<group>"; };
+		3749634624D2E73A00CDDC04 /* BlockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockViewController.swift; sourceTree = "<group>"; };
+		3749634824D2E75D00CDDC04 /* BlockTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockTableViewCell.swift; sourceTree = "<group>"; };
+		3749634924D2E75D00CDDC04 /* BlockTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BlockTableViewCell.xib; sourceTree = "<group>"; };
+		3749634C24D8F9DF00CDDC04 /* 無題18_20200804110409.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "無題18_20200804110409.JPG"; sourceTree = "<group>"; };
+		3749634F24DA79A000CDDC04 /* Icon-App-76x76@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Icon-App-76x76@2x.jpg"; sourceTree = "<group>"; };
+		3749635024DA79A000CDDC04 /* Icon-App-29x29@1x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Icon-App-29x29@1x.jpg"; sourceTree = "<group>"; };
+		3749635124DA79A000CDDC04 /* Icon-App-40x40@1x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Icon-App-40x40@1x.jpg"; sourceTree = "<group>"; };
+		3749635224DA79A000CDDC04 /* Icon-App-20x20@1x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Icon-App-20x20@1x.jpg"; sourceTree = "<group>"; };
+		3749635324DA79A000CDDC04 /* Icon-App-83.5x83.5@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Icon-App-83.5x83.5@2x.jpg"; sourceTree = "<group>"; };
+		3749635424DA79A000CDDC04 /* Icon-App-20x20@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Icon-App-20x20@3x.jpg"; sourceTree = "<group>"; };
+		3749635524DA79A000CDDC04 /* ItunesArtwork@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ItunesArtwork@2x.jpg"; sourceTree = "<group>"; };
+		3749635624DA79A000CDDC04 /* Icon-App-20x20@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Icon-App-20x20@2x.jpg"; sourceTree = "<group>"; };
+		3749635724DA79A000CDDC04 /* Icon-App-29x29@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Icon-App-29x29@3x.jpg"; sourceTree = "<group>"; };
+		3749635824DA79A000CDDC04 /* Icon-App-40x40@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Icon-App-40x40@2x.jpg"; sourceTree = "<group>"; };
+		3749635924DA79A000CDDC04 /* Icon-App-60x60@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Icon-App-60x60@3x.jpg"; sourceTree = "<group>"; };
+		3749635A24DA79A000CDDC04 /* Icon-App-60x60@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Icon-App-60x60@2x.jpg"; sourceTree = "<group>"; };
+		3749635B24DA79A000CDDC04 /* Icon-App-76x76@1x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Icon-App-76x76@1x.jpg"; sourceTree = "<group>"; };
+		3749635C24DA79A000CDDC04 /* Icon-App-40x40@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Icon-App-40x40@3x.jpg"; sourceTree = "<group>"; };
+		3749635D24DA79A000CDDC04 /* Icon-App-29x29@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Icon-App-29x29@2x.jpg"; sourceTree = "<group>"; };
+		3762F3DF24C1D57E000E5C75 /* CommentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentTableViewCell.swift; sourceTree = "<group>"; };
+		3762F3E024C1D57E000E5C75 /* CommentTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommentTableViewCell.xib; sourceTree = "<group>"; };
+		3762F3E324C27AD0000E5C75 /* ThisWeeekViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThisWeeekViewController.swift; sourceTree = "<group>"; };
+		3762F3E524C27AFB000E5C75 /* ThisWeekTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThisWeekTableViewCell.swift; sourceTree = "<group>"; };
+		3762F3E624C27AFB000E5C75 /* ThisWeekTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThisWeekTableViewCell.xib; sourceTree = "<group>"; };
+		3762F3E924C284B7000E5C75 /* ThisWeek.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThisWeek.swift; sourceTree = "<group>"; };
+		3762F3EB24C29B4C000E5C75 /* 無題8_20200718115102.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "無題8_20200718115102.PNG"; sourceTree = "<group>"; };
+		3762F3EE24C4637B000E5C75 /* iTunesArtwork@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@1x.png"; sourceTree = "<group>"; };
+		3762F3F024C4637B000E5C75 /* Icon-App-76x76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-76x76@2x.png"; sourceTree = "<group>"; };
+		3762F3F124C4637B000E5C75 /* Icon-App-29x29@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@1x.png"; sourceTree = "<group>"; };
+		3762F3F224C4637B000E5C75 /* Icon-App-40x40@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@1x.png"; sourceTree = "<group>"; };
+		3762F3F324C4637B000E5C75 /* Icon-App-20x20@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@1x.png"; sourceTree = "<group>"; };
+		3762F3F424C4637B000E5C75 /* Icon-App-83.5x83.5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-83.5x83.5@2x.png"; sourceTree = "<group>"; };
+		3762F3F524C4637B000E5C75 /* Icon-App-20x20@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@3x.png"; sourceTree = "<group>"; };
+		3762F3F624C4637B000E5C75 /* ItunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ItunesArtwork@2x.png"; sourceTree = "<group>"; };
+		3762F3F724C4637B000E5C75 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		3762F3F824C4637B000E5C75 /* Icon-App-20x20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@2x.png"; sourceTree = "<group>"; };
+		3762F3F924C4637B000E5C75 /* Icon-App-29x29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@3x.png"; sourceTree = "<group>"; };
+		3762F3FA24C4637B000E5C75 /* Icon-App-40x40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@2x.png"; sourceTree = "<group>"; };
+		3762F3FB24C4637C000E5C75 /* Icon-App-60x60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-60x60@3x.png"; sourceTree = "<group>"; };
+		3762F3FC24C4637C000E5C75 /* Icon-App-60x60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-60x60@2x.png"; sourceTree = "<group>"; };
+		3762F3FD24C4637C000E5C75 /* Icon-App-76x76@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-76x76@1x.png"; sourceTree = "<group>"; };
+		3762F3FE24C4637C000E5C75 /* Icon-App-40x40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@3x.png"; sourceTree = "<group>"; };
+		3762F3FF24C4637C000E5C75 /* Icon-App-29x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@2x.png"; sourceTree = "<group>"; };
+		3762F40124C4637C000E5C75 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		3762F40224C4637C000E5C75 /* iTunesArtwork@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@3x.png"; sourceTree = "<group>"; };
+		3762F41D24C53921000E5C75 /* FollowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowViewController.swift; sourceTree = "<group>"; };
+		3762F41F24C53942000E5C75 /* FollowTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowTableViewCell.swift; sourceTree = "<group>"; };
+		3762F42024C53942000E5C75 /* FollowTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FollowTableViewCell.xib; sourceTree = "<group>"; };
+		5C3C913F399531AAE52B0D7B /* Pods_InstaglamSmple.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstaglamSmple.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FAEF5A42E3923CDD2DF36B5 /* Pods-InstaglamSmple.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaglamSmple.debug.xcconfig"; path = "Target Support Files/Pods-InstaglamSmple/Pods-InstaglamSmple.debug.xcconfig"; sourceTree = "<group>"; };
+		D67F9C5EA40BD0A9ACBD42B9 /* Pods-InstaglamSmple.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaglamSmple.release.xcconfig"; path = "Target Support Files/Pods-InstaglamSmple/Pods-InstaglamSmple.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +203,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57D4D699A0CD81DAF07B9C03 /* Pods_InstaglamSmple.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		217DEBCA6351881FB431483A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C3C913F399531AAE52B0D7B /* Pods_InstaglamSmple.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3738C8DC2484FC00006B25C9 = {
 			isa = PBXGroup;
 			children = (
 				3738C8E72484FC00006B25C9 /* InstaglamSmple */,
 				3738C8E62484FC00006B25C9 /* Products */,
+				B9A911CAA696D8A1DBC5EDD9 /* Pods */,
+				217DEBCA6351881FB431483A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +239,140 @@
 		3738C8E72484FC00006B25C9 /* InstaglamSmple */ = {
 			isa = PBXGroup;
 			children = (
+				3738C904248500C6006B25C9 /* images */,
 				3738C8E82484FC00006B25C9 /* AppDelegate.swift */,
 				3738C8EA2484FC00006B25C9 /* SceneDelegate.swift */,
-				3738C8EC2484FC00006B25C9 /* ViewController.swift */,
+				373BE2C124923B5200256580 /* BorderButton.swift */,
+				3738C9272487A14F006B25C9 /* Post.swift */,
+				3738C9292487A15D006B25C9 /* User.swift */,
+				3738C92B2487A359006B25C9 /* Comment.swift */,
+				3762F3E924C284B7000E5C75 /* ThisWeek.swift */,
+				373974F524C943D500848AC1 /* Report.swift */,
+				373974F724C943E700848AC1 /* Block.swift */,
+				3738C917248656AC006B25C9 /* EditUserInfoViewController.swift */,
+				373BE2A92488F10D00256580 /* PostViewController.swift */,
+				373BE2D3249644B600256580 /* HashTagViewController.swift */,
+				3762F3E524C27AFB000E5C75 /* ThisWeekTableViewCell.swift */,
+				3762F3E624C27AFB000E5C75 /* ThisWeekTableViewCell.xib */,
+				3762F3E324C27AD0000E5C75 /* ThisWeeekViewController.swift */,
+				373BE2BF2492360300256580 /* CommentViewController.swift */,
+				3762F3DF24C1D57E000E5C75 /* CommentTableViewCell.swift */,
+				3762F3E024C1D57E000E5C75 /* CommentTableViewCell.xib */,
+				373BE2C324923F0B00256580 /* ViewController1.swift */,
+				3738C91B24875872006B25C9 /* TimelineTableViewCell.swift */,
+				3738C91C24875872006B25C9 /* TimelineTableViewCell.xib */,
+				3738C90F24861AE5006B25C9 /* SignUpViewController.swift */,
+				3738C9112486351B006B25C9 /* SignInViewController.swift */,
 				3738C8EE2484FC00006B25C9 /* Main.storyboard */,
+				3738C90B2485E30D006B25C9 /* SignIn.storyboard */,
+				373BE2B12489E45700256580 /* SearchUserTableViewCell.swift */,
+				373BE2B22489E45700256580 /* SearchUserTableViewCell.xib */,
+				373BE2B52489E75200256580 /* SearchViewController.swift */,
+				3738C91324863AEC006B25C9 /* UserPageViewController.swift */,
+				373BE2B7248B666000256580 /* ShowUserViewController.swift */,
+				3749634624D2E73A00CDDC04 /* BlockViewController.swift */,
+				3749634824D2E75D00CDDC04 /* BlockTableViewCell.swift */,
+				3749634924D2E75D00CDDC04 /* BlockTableViewCell.xib */,
+				3762F41D24C53921000E5C75 /* FollowViewController.swift */,
+				3762F41F24C53942000E5C75 /* FollowTableViewCell.swift */,
+				3762F42024C53942000E5C75 /* FollowTableViewCell.xib */,
 				3738C8F12484FC04006B25C9 /* Assets.xcassets */,
 				3738C8F32484FC04006B25C9 /* LaunchScreen.storyboard */,
+				372212C624CED30D00BFF4F4 /* Splash.storyboard */,
+				372212C824CED32600BFF4F4 /* SplashViewController.swift */,
 				3738C8F62484FC04006B25C9 /* Info.plist */,
 			);
 			path = InstaglamSmple;
+			sourceTree = "<group>";
+		};
+		3738C904248500C6006B25C9 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				373974EF24C9352200848AC1 /* IMG_2871.PNG.pdf */,
+				373974E924C867AC00848AC1 /* フリップ.png */,
+				3762F3ED24C4637B000E5C75 /* ios */,
+				3762F3EB24C29B4C000E5C75 /* 無題8_20200718115102.PNG */,
+				373BE2CF24948B4000256580 /* icons8-トピック-50.png */,
+				373BE2C724938BB000256580 /* icons8-名前-32.png */,
+				373BE2C524938BA200256580 /* icons8-追加-24.png */,
+				3738C91F24875D60006B25C9 /* icons8-ハート-48.png */,
+				373BE2D124948C2600256580 /* icons8-いいね-50.png */,
+				373BE2C924938C5100256580 /* icons8-タイムライン-32.png */,
+				3738C8FE248500AD006B25C9 /* icons8-ホーム-50.png */,
+				3738C8FC24850098006B25C9 /* icons8-検索-24.png */,
+				373974ED24C9119E00848AC1 /* IMG_2868.PNG */,
+				373974F224C93AD700848AC1 /* 背景.PNG */,
+				373974F124C93AD500848AC1 /* 無題10_20200723122451.PNG */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		3749634E24DA79A000CDDC04 /* png2jpg */ = {
+			isa = PBXGroup;
+			children = (
+				3749634F24DA79A000CDDC04 /* Icon-App-76x76@2x.jpg */,
+				3749635024DA79A000CDDC04 /* Icon-App-29x29@1x.jpg */,
+				3749635124DA79A000CDDC04 /* Icon-App-40x40@1x.jpg */,
+				3749635224DA79A000CDDC04 /* Icon-App-20x20@1x.jpg */,
+				3749635324DA79A000CDDC04 /* Icon-App-83.5x83.5@2x.jpg */,
+				3749635424DA79A000CDDC04 /* Icon-App-20x20@3x.jpg */,
+				3749635524DA79A000CDDC04 /* ItunesArtwork@2x.jpg */,
+				3749635624DA79A000CDDC04 /* Icon-App-20x20@2x.jpg */,
+				3749635724DA79A000CDDC04 /* Icon-App-29x29@3x.jpg */,
+				3749635824DA79A000CDDC04 /* Icon-App-40x40@2x.jpg */,
+				3749635924DA79A000CDDC04 /* Icon-App-60x60@3x.jpg */,
+				3749635A24DA79A000CDDC04 /* Icon-App-60x60@2x.jpg */,
+				3749635B24DA79A000CDDC04 /* Icon-App-76x76@1x.jpg */,
+				3749635C24DA79A000CDDC04 /* Icon-App-40x40@3x.jpg */,
+				3749635D24DA79A000CDDC04 /* Icon-App-29x29@2x.jpg */,
+			);
+			path = png2jpg;
+			sourceTree = "<group>";
+		};
+		3762F3ED24C4637B000E5C75 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				3749634C24D8F9DF00CDDC04 /* 無題18_20200804110409.JPG */,
+				3762F3EE24C4637B000E5C75 /* iTunesArtwork@1x.png */,
+				3749634E24DA79A000CDDC04 /* png2jpg */,
+				3762F3EF24C4637B000E5C75 /* AppIcon.appiconset */,
+				3762F40124C4637C000E5C75 /* iTunesArtwork@2x.png */,
+				3762F40224C4637C000E5C75 /* iTunesArtwork@3x.png */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
+		3762F3EF24C4637B000E5C75 /* AppIcon.appiconset */ = {
+			isa = PBXGroup;
+			children = (
+				373974EB24C9102700848AC1 /* IMG_2867.PNG */,
+				3762F3F024C4637B000E5C75 /* Icon-App-76x76@2x.png */,
+				3762F3F124C4637B000E5C75 /* Icon-App-29x29@1x.png */,
+				3762F3F224C4637B000E5C75 /* Icon-App-40x40@1x.png */,
+				3762F3F324C4637B000E5C75 /* Icon-App-20x20@1x.png */,
+				3762F3F424C4637B000E5C75 /* Icon-App-83.5x83.5@2x.png */,
+				3762F3F524C4637B000E5C75 /* Icon-App-20x20@3x.png */,
+				3762F3F624C4637B000E5C75 /* ItunesArtwork@2x.png */,
+				3762F3F724C4637B000E5C75 /* Contents.json */,
+				3762F3F824C4637B000E5C75 /* Icon-App-20x20@2x.png */,
+				3762F3F924C4637B000E5C75 /* Icon-App-29x29@3x.png */,
+				3762F3FA24C4637B000E5C75 /* Icon-App-40x40@2x.png */,
+				3762F3FB24C4637C000E5C75 /* Icon-App-60x60@3x.png */,
+				3762F3FC24C4637C000E5C75 /* Icon-App-60x60@2x.png */,
+				3762F3FD24C4637C000E5C75 /* Icon-App-76x76@1x.png */,
+				3762F3FE24C4637C000E5C75 /* Icon-App-40x40@3x.png */,
+				3762F3FF24C4637C000E5C75 /* Icon-App-29x29@2x.png */,
+			);
+			path = AppIcon.appiconset;
+			sourceTree = "<group>";
+		};
+		B9A911CAA696D8A1DBC5EDD9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9FAEF5A42E3923CDD2DF36B5 /* Pods-InstaglamSmple.debug.xcconfig */,
+				D67F9C5EA40BD0A9ACBD42B9 /* Pods-InstaglamSmple.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +382,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3738C8F92484FC04006B25C9 /* Build configuration list for PBXNativeTarget "InstaglamSmple" */;
 			buildPhases = (
+				AB35D8862067576D57C13779 /* [CP] Check Pods Manifest.lock */,
 				3738C8E12484FC00006B25C9 /* Sources */,
 				3738C8E22484FC00006B25C9 /* Frameworks */,
 				3738C8E32484FC00006B25C9 /* Resources */,
+				32004B6DBC9E2E42B560EB04 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,22 +435,148 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3762F40824C4637C000E5C75 /* Icon-App-83.5x83.5@2x.png in Resources */,
+				3762F40E24C4637C000E5C75 /* Icon-App-40x40@2x.png in Resources */,
+				3738C90C2485E30D006B25C9 /* SignIn.storyboard in Resources */,
+				3762F41224C4637C000E5C75 /* Icon-App-40x40@3x.png in Resources */,
+				3762F3E824C27AFB000E5C75 /* ThisWeekTableViewCell.xib in Resources */,
+				3762F3EC24C29B4C000E5C75 /* 無題8_20200718115102.PNG in Resources */,
+				3749634D24D8F9E000CDDC04 /* 無題18_20200804110409.JPG in Resources */,
+				3749634B24D2E75D00CDDC04 /* BlockTableViewCell.xib in Resources */,
+				373BE2CA24938C5100256580 /* icons8-タイムライン-32.png in Resources */,
+				3762F42224C53942000E5C75 /* FollowTableViewCell.xib in Resources */,
+				3749636724DA79A000CDDC04 /* Icon-App-40x40@2x.jpg in Resources */,
+				3762F40324C4637C000E5C75 /* iTunesArtwork@1x.png in Resources */,
+				3762F41124C4637C000E5C75 /* Icon-App-76x76@1x.png in Resources */,
 				3738C8F52484FC04006B25C9 /* LaunchScreen.storyboard in Resources */,
+				3749636A24DA79A000CDDC04 /* Icon-App-76x76@1x.jpg in Resources */,
+				3749636B24DA79A000CDDC04 /* Icon-App-40x40@3x.jpg in Resources */,
+				3762F40B24C4637C000E5C75 /* Contents.json in Resources */,
+				3738C8FD24850098006B25C9 /* icons8-検索-24.png in Resources */,
+				3749636624DA79A000CDDC04 /* Icon-App-29x29@3x.jpg in Resources */,
+				373974EA24C867AD00848AC1 /* フリップ.png in Resources */,
+				3762F40D24C4637C000E5C75 /* Icon-App-29x29@3x.png in Resources */,
+				3749636C24DA79A000CDDC04 /* Icon-App-29x29@2x.jpg in Resources */,
+				3762F3E224C1D57E000E5C75 /* CommentTableViewCell.xib in Resources */,
+				3762F40A24C4637C000E5C75 /* ItunesArtwork@2x.png in Resources */,
 				3738C8F22484FC04006B25C9 /* Assets.xcassets in Resources */,
+				373974F324C93AD700848AC1 /* 無題10_20200723122451.PNG in Resources */,
+				3762F40724C4637C000E5C75 /* Icon-App-20x20@1x.png in Resources */,
+				3749636224DA79A000CDDC04 /* Icon-App-83.5x83.5@2x.jpg in Resources */,
+				3762F41024C4637C000E5C75 /* Icon-App-60x60@2x.png in Resources */,
+				3762F40924C4637C000E5C75 /* Icon-App-20x20@3x.png in Resources */,
+				3762F40624C4637C000E5C75 /* Icon-App-40x40@1x.png in Resources */,
+				373BE2C624938BA200256580 /* icons8-追加-24.png in Resources */,
+				373BE2B42489E45700256580 /* SearchUserTableViewCell.xib in Resources */,
+				373974F424C93AD700848AC1 /* 背景.PNG in Resources */,
+				3738C8FF248500AD006B25C9 /* icons8-ホーム-50.png in Resources */,
+				3762F40424C4637C000E5C75 /* Icon-App-76x76@2x.png in Resources */,
+				3762F41324C4637C000E5C75 /* Icon-App-29x29@2x.png in Resources */,
+				3749636524DA79A000CDDC04 /* Icon-App-20x20@2x.jpg in Resources */,
+				373974EE24C9119E00848AC1 /* IMG_2868.PNG in Resources */,
+				3749636924DA79A000CDDC04 /* Icon-App-60x60@2x.jpg in Resources */,
+				3749636424DA79A000CDDC04 /* ItunesArtwork@2x.jpg in Resources */,
+				373974EC24C9102800848AC1 /* IMG_2867.PNG in Resources */,
+				372212C724CED30D00BFF4F4 /* Splash.storyboard in Resources */,
+				3762F40F24C4637C000E5C75 /* Icon-App-60x60@3x.png in Resources */,
+				373974F024C9352300848AC1 /* IMG_2871.PNG.pdf in Resources */,
+				373BE2D024948B4100256580 /* icons8-トピック-50.png in Resources */,
+				3749636024DA79A000CDDC04 /* Icon-App-40x40@1x.jpg in Resources */,
 				3738C8F02484FC00006B25C9 /* Main.storyboard in Resources */,
+				3762F40524C4637C000E5C75 /* Icon-App-29x29@1x.png in Resources */,
+				3749635E24DA79A000CDDC04 /* Icon-App-76x76@2x.jpg in Resources */,
+				3738C91E24875872006B25C9 /* TimelineTableViewCell.xib in Resources */,
+				3762F41524C4637C000E5C75 /* iTunesArtwork@2x.png in Resources */,
+				3749636124DA79A000CDDC04 /* Icon-App-20x20@1x.jpg in Resources */,
+				3762F41624C4637C000E5C75 /* iTunesArtwork@3x.png in Resources */,
+				3762F40C24C4637C000E5C75 /* Icon-App-20x20@2x.png in Resources */,
+				3749636824DA79A000CDDC04 /* Icon-App-60x60@3x.jpg in Resources */,
+				373BE2D224948C2600256580 /* icons8-いいね-50.png in Resources */,
+				373BE2C824938BB000256580 /* icons8-名前-32.png in Resources */,
+				3738C92024875D60006B25C9 /* icons8-ハート-48.png in Resources */,
+				3749635F24DA79A000CDDC04 /* Icon-App-29x29@1x.jpg in Resources */,
+				3749636324DA79A000CDDC04 /* Icon-App-20x20@3x.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32004B6DBC9E2E42B560EB04 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InstaglamSmple/Pods-InstaglamSmple-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InstaglamSmple/Pods-InstaglamSmple-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InstaglamSmple/Pods-InstaglamSmple-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB35D8862067576D57C13779 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InstaglamSmple-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3738C8E12484FC00006B25C9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3738C8ED2484FC00006B25C9 /* ViewController.swift in Sources */,
+				373BE2C424923F0B00256580 /* ViewController1.swift in Sources */,
+				373BE2B62489E75200256580 /* SearchViewController.swift in Sources */,
+				3762F41E24C53921000E5C75 /* FollowViewController.swift in Sources */,
+				372212C924CED32600BFF4F4 /* SplashViewController.swift in Sources */,
+				3738C91D24875872006B25C9 /* TimelineTableViewCell.swift in Sources */,
+				373BE2D4249644B600256580 /* HashTagViewController.swift in Sources */,
+				373BE2AA2488F10D00256580 /* PostViewController.swift in Sources */,
+				3738C9122486351B006B25C9 /* SignInViewController.swift in Sources */,
 				3738C8E92484FC00006B25C9 /* AppDelegate.swift in Sources */,
+				373BE2B8248B666000256580 /* ShowUserViewController.swift in Sources */,
+				3749634724D2E73A00CDDC04 /* BlockViewController.swift in Sources */,
+				3762F3E424C27AD0000E5C75 /* ThisWeeekViewController.swift in Sources */,
+				3762F42124C53942000E5C75 /* FollowTableViewCell.swift in Sources */,
+				3738C918248656AC006B25C9 /* EditUserInfoViewController.swift in Sources */,
+				3738C91024861AE5006B25C9 /* SignUpViewController.swift in Sources */,
+				3738C9282487A14F006B25C9 /* Post.swift in Sources */,
+				3738C91424863AEC006B25C9 /* UserPageViewController.swift in Sources */,
+				373974F824C943E700848AC1 /* Block.swift in Sources */,
+				3762F3EA24C284B7000E5C75 /* ThisWeek.swift in Sources */,
+				3762F3E724C27AFB000E5C75 /* ThisWeekTableViewCell.swift in Sources */,
+				3738C92A2487A15D006B25C9 /* User.swift in Sources */,
+				3738C92C2487A359006B25C9 /* Comment.swift in Sources */,
+				373BE2C224923B5200256580 /* BorderButton.swift in Sources */,
 				3738C8EB2484FC00006B25C9 /* SceneDelegate.swift in Sources */,
+				373974F624C943D500848AC1 /* Report.swift in Sources */,
+				3749634A24D2E75D00CDDC04 /* BlockTableViewCell.swift in Sources */,
+				3762F3E124C1D57E000E5C75 /* CommentTableViewCell.swift in Sources */,
+				373BE2B32489E45700256580 /* SearchUserTableViewCell.swift in Sources */,
+				373BE2C02492360300256580 /* CommentViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,10 +718,13 @@
 		};
 		3738C8FA2484FC04006B25C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FAEF5A42E3923CDD2DF36B5 /* Pods-InstaglamSmple.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = InstaglamSmple/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,10 +738,13 @@
 		};
 		3738C8FB2484FC04006B25C9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D67F9C5EA40BD0A9ACBD42B9 /* Pods-InstaglamSmple.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = InstaglamSmple/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
